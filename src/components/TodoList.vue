@@ -165,7 +165,7 @@ const deletingTodo = ref<Todo | null>(null)
 const todosContainer = ref<HTMLElement>()
 
 // Search debouncing
-let searchTimeout: number
+let searchTimeout: any;
 
 // Computed
 const filterStatus = computed(() => {
