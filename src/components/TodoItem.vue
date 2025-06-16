@@ -74,7 +74,7 @@
         <button
           @click="handleSaveEdit"
           class="btn btn-small"
-          :disabled="!editForm.title.trim() || todoStore.loading"
+          :disabled="!editForm.title?.trim() || todoStore.loading"
         >
           Save
         </button>
